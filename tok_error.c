@@ -26,7 +26,7 @@ void set_op_tok_error(int error_code)
 	if (!exit_str)
 	{
 		free(new_toks);
-		malloc_error();
+		malloc_err();
 		return;
 	}
 	new_toks[i++] = exit_str;
